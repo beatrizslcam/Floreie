@@ -1,0 +1,68 @@
+#menu{
+    background-color: #f1696c;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu > a:hover  {
+background-color: whitesmoke;
+color:#f1696c;
+padding: 10px;
+transition: all 0.3s;
+}
+
+navbar-toggler-icon{
+    color: white;
+}
+#compra{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    padding: 10px;
+    
+}
+
+#logo{
+    width: 150x;
+    height: 150px;
+
+}
+#lg-align{
+   margin-right: 25px;
+}
+
+#pesquisa:hover {
+    background-color: rgb(223, 223, 223);
+    
+
+}
+#pesquisa{
+    border-color: rgb(197, 197, 197);
+}
+#cards{
+    padding: 250px 0px 0px 0px;
+}
+
+nav{
+    background-color: white;
+}
+a:hover img{
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration:none;
+    color: whitesmoke;
+}
+a:visited {
+    text-decoration:none;
+    color: whitesmoke;
+}
+
+i{
+    color: gray;
+}
+
+#btn-buy{
+background-color:#f1696c;
+color: white;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Floreie</title>
+    <!--bootsrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--folha de estilo personalizada-->
+    <link href="public/css/estilo.css" rel="stylesheet">
+
+    <!--font awesome-->
+    <link href="public/css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar-expand-lg navbar-default  fixed-top">
+            <div class="container text-right">
+                <a href="#"><i class="fas fa-map-marker-alt "> Ponta Porã</i></a>
+                <a href="#" class="text-light ml-3 sombra"> <i class="fab fa-whatsapp "> Contate-nos</i></a>
+                <a href="#" class="text-light  ml-3 sombra"><i class="fas fa-user"> Entrar</i></a>
+            </div>
+
+            <div class="container">
+
+                <div class="row">
+                    <!--Logo-->
+                    <div id="lg-align" class="col-md-4 col-sm-3 text-right-md text-center-sm">
+                        <a href="#" class="logo-link"><img id="logo" src="public/img/logo.jpeg"></a>
+                    </div>
+
+                    <!--Barra de Pesquisa-->
+                    <div class="mt-5 col-3 col-sm-4">
+                        <div class="input-group ">
+                            <input type=" text" class="form-control" placeholder="Pesquisar">
+                            <div class=" input-group-append">
+                                <button id="pesquisa" class="btn btn-outline-secondary" type="button"><i
+                                        class="fas fa-search"></i>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Carrinho-->
+                    <a href="#" id="compra" class="mt-5"><i class="fas fa-shopping-basket "> Meu carrinho</i></a>
+
+                </div>
+            </div>
+
+            <!--Menu-->
+            <!--botão para menu no celular-->
+            <div id="menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="teste"
+                    aria-expanded="false" aria-controls="teste" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="teste" class="collapse navbar-collapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active mr-4 ">Ofertas</a>
+                        <a href="#" class="nav-item nav-link mr-4 ">Tipos de Flores</a>
+                        <a href="#" class="nav-item nav-link mr-4 ">Buquês</a>
+                        <a href="#" class="nav-item nav-link mr-4 ">Arranjos</a>
+                        <a href="#" class="nav-item nav-link mr-4">Presentes</a>
+                        <a href="#" class="nav-item nav-link mr-4">Sobre nós</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Compras-->
+    <section>
+        <div id="cards" class="container">
+            <div class="row mt-5">
+                <div class="col-md-3 col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="public/img/aj1.jpeg" class="card-img-top ">
+                        <div class="text-center card-body">
+                            <h5 class="card-title">Flor</h5>
+                            <p id="btn-buy" class="btn" href="#">R$20,00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="public/img/bq1.jpeg" class="card-img-top ">
+                        <div class="text-center card-body">
+                            <h5 class="card-title">Buquê</h5>
+                            <p id="btn-buy" class="btn" href="#">R$20,00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-sm-6 ">
+                    <div class="card">
+                        <img src="public/img/pt1.jpeg" class="card-img-top">
+                        <div class="text-center card-body">
+                            <h5 class="card-title">Presente</h5>
+                            <p id="btn-buy" class="btn" href="#">R$20,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-6">
+                    <div class="card">
+                        <img src="public/img/aj4.jpeg" class="card-img-top">
+                        <div class="text-center card-body">
+                            <h5 class="card-title">Arranjo</h5>
+                            <p id="btn-buy" class="btn" href="#">R$20,00</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
